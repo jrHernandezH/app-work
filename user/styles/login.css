@@ -17,14 +17,15 @@
 body {
     align-items: center;
     background-color: var(--white);
-    background: url("https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg");
+    background: url(../resource/img/parentLogin.jpg);
     background-attachment: fixed;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
     height: 100vh;
     place-items: center;
+    overflow-y: hidden;
 }
 
 .form__title {
@@ -100,7 +101,7 @@ body {
 
 .overlay {
     background-color: var(--lightblue);
-    background: url("https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg");
+    background: url(../resource/img/loginBack.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,7 +126,7 @@ body {
     justify-content: center;
     position: absolute;
     text-align: center;
-    top: 0;
+    top: 150px;
     transform: translateX(0);
     transition: transform 0.6s ease-in-out;
     width: 50%;
