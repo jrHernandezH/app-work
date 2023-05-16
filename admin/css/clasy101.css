@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/finance.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    background-color: rgba(6, 6, 6, 0.986);
+    padding-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li{
+    
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+    
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #020202fb;
+}
+
+.about img{
+    height: auto;
+    width: 435px;
+    padding-left: 5px;
+    float: right;
+    clear: right;
+}
+
+.about .dos{
+    width: 300px;
+}
+
+.about .tres{
+    width: 150px;
+}
+
+.about .cuatro{
+    width: 140px;
+}
+
+.about-text{
+    width: 70%;
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: justify  ;
+}
+
+.about-text h2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    
+     
+}
+.about-text h5{
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.about-text .mision{
+    text-align: left;
+}
+.about-text p{
+    color: aliceblue;
+    letter-spacing: 1px;
+    line-height:  28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.service{
+    background: #000;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.titulo h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+.card{
+    height: 435px;
+    width: 335px;
+    padding: 20px 35px;
+    background: whitesmoke;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h5{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .boton{
+    background-color: #000;
+    color: gray;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .boton:hover{
+    background-color: transparent;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p{
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .boton2{
+    background-color: #000;
+    color: gray;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.contact-me .boton2:hover{
+    background-color: transparent;
+    border: 2px solid #000;
+    cursor: pointer;
+}
